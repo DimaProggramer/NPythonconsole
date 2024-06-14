@@ -356,9 +356,11 @@ COMMANDS = {
     "matrix": matrix,
     "info": info,
 }
-
 def console():
-    os.chdir("/storage/emulated/0/conpyt/home")
+    if os.name == 'nt':
+        os.chdir(r"C:\conpyt")
+    else:
+        os.chdir("/storage/emulated/0/")
 
     while True:
         command = input(f"{GREEN}{set_prompt()} {RESET}")
