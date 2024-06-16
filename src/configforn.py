@@ -1,6 +1,7 @@
 RESET = "\033[0m"
 BLACK = "\033[30m"
 RED = "\033[31m"
+PURPLE = "\033[35m"
 GREEN = "\033[32m"
 YELLOW = "\033[33m"
 BLUE = "\033[34m"
@@ -23,31 +24,6 @@ LIGHT_MAGENTA = "\033[38;5;207m"
 LIGHT_CYAN = "\033[38;5;159m"
 LIGHT_GRAY = "\033[38;5;250m"
 DARK_GRAY = "\033[38;5;240m"
-symbols = "Test"
-print(f"{BLACK}{symbols}{RESET}")
-print(f"{RED}{symbols}{RESET}")
-print(f"{GREEN}{symbols}{RESET}")
-print(f"{YELLOW}{symbols}{RESET}")
-print(f"{BLUE}{symbols}{RESET}")
-print(f"{MAGENTA}{symbols}{RESET}")
-print(f"{CYAN}{symbols}{RESET}")
-print(f"{WHITE}{symbols}{RESET}")
-print(f"{BRIGHT_BLACK}{symbols}{RESET}")
-print(f"{BRIGHT_RED}{symbols}{RESET}")
-print(f"{BRIGHT_GREEN}{symbols}{RESET}")
-print(f"{BRIGHT_YELLOW}{symbols}{RESET}")
-print(f"{BRIGHT_BLUE}{symbols}{RESET}")
-print(f"{BRIGHT_MAGENTA}{symbols}{RESET}")
-print(f"{BRIGHT_CYAN}{symbols}{RESET}")
-print(f"{BRIGHT_WHITE}{symbols}{RESET}")
-print(f"{PINK}{symbols}{RESET}")
-print(f"{ORANGE}{symbols}{RESET}")
-print(f"{LIGHT_GREEN}{symbols}{RESET}")
-print(f"{LIGHT_BLUE}{symbols}{RESET}")
-print(f"{LIGHT_MAGENTA}{symbols}{RESET}")
-print(f"{LIGHT_CYAN}{symbols}{RESET}")
-print(f"{LIGHT_GRAY}{symbols}{RESET}")
-print(f"{DARK_GRAY}{symbols}{RESET}")
 logo = """ _   _   __
 | '_' (_)\ \  
 | | | |_ / /
