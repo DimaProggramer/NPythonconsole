@@ -93,7 +93,7 @@ def search(args):
     elif platform == "pypi":
         search_pypi(query)
     else:
-        print_colored("Unknown platform. Use 'google', 'github', or 'pypi'.", RED)
+        print_colored("Unknown platform. Use 'github', or 'pypi'.", RED)
 
 def change_directory(args):
     try:
