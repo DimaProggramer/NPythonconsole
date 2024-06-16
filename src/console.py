@@ -44,7 +44,7 @@ def ensure_in_conpyt():
     current_dir = Path.cwd().resolve()
     if not str(current_dir).startswith(str(allowed_dir)):
         os.chdir(allowed_dir)
-        print_colored("Access denied. Returned to /storage/emulated/0/conpyt", RED)
+        print_colored("Access denied. Returned", RED)
 
 def search_github(query):
     url = f"https://api.github.com/search/repositories?q={query}"
